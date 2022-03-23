@@ -42,7 +42,7 @@ jobs:
         working-directory: ./projects/hero
         run: mv NPM-README.md README.md
       - name: NPM Publish
-        working-directory: ./projects/hero
+        working-directory: ./dist/hero
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
@@ -70,7 +70,7 @@ jobs:
       - name: NPM Build
         run: npm run-script build
       - name: NPM Publish
-        working-directory: ./projects/hero
+        working-directory: ./dist/hero
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.MASTER_BRANCH_ACCESS_TOKEN}}
