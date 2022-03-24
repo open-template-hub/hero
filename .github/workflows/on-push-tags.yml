@@ -38,9 +38,6 @@ jobs:
         run: npm ci
       - name: NPM Build
         run: npm run-script build
-      - name: NPM Version of the Readme
-        working-directory: ./projects/hero
-        run: mv NPM-README.md README.md
       - name: NPM Publish
         working-directory: ./dist/hero
         run: npm publish --access public
