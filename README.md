@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-Open Template Hub - Hero UI Component v1
+Open Template Hub - Hero UI Component v4
 </h1>
 
 [![Version](https://img.shields.io/npm/v/@open-template-hub/hero?color=CB3837&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@open-template-hub/hero)
