@@ -6,7 +6,7 @@
 
 
 <h1 align="center">
-Open Template Hub - Hero UI Component v1
+Open Template Hub - Hero UI Component v4
   <br/>
 (outdated packages)
 </h1>
@@ -15,7 +15,7 @@ Following packages are not updated in the develop branch yet. So, if you want to
 
 | Package | Current | Wanted | Latest | Location |
 | --- | --- | --- | --- | --- |
-| @types/jasmine | 3.10.4 | 3.10.4 | 4.0.0 | hero |
+| @types/jasmine | 3.10.5 | 3.10.5 | 4.0.2 | hero |
 | @types/node | 12.20.47 | 12.20.47 | 17.0.23 | hero |
 | karma-coverage | 2.1.1 | 2.1.1 | 2.2.0 | hero |
 
