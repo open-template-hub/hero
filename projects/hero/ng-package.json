@@ -3,5 +3,9 @@
   "dest": "../../dist/hero",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    "styles/util/util.scss",
+    "styles/hero/hero.scss"
+  ]
 }
