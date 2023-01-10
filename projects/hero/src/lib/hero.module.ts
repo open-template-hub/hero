@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { HeroComponent } from './component/hero/hero.component';
 
-@NgModule({
+@NgModule( {
   declarations: [
     HeroComponent
   ],
@@ -12,5 +12,6 @@ import { HeroComponent } from './component/hero/hero.component';
   exports: [
     HeroComponent
   ]
-})
-export class HeroModule { }
+} )
+export class HeroModule {
+}
