@@ -14,8 +14,8 @@ export class HeroComponent {
 
   constructor() {
     this.contents = [
-      { text: 'Content'}
-    ]
+      { text: 'Content' }
+    ];
 
     this.heroClass = '';
   }
